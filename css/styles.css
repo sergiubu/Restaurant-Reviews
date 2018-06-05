@@ -57,7 +57,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   color: #aaa;
   font-size: 8pt;
   letter-spacing: 1px;
-  padding: 25px;
+  padding: 25px 0;
   text-align: center;
   text-transform: uppercase;
 }
@@ -262,6 +262,7 @@ nav h1 a {
 }
 
 #restaurant-img {
+  border-radius: 35px 0 0;
   width: 90%;
 }
 
@@ -310,17 +311,25 @@ nav h1 a {
 #reviews-list li {
   background-color: #fff;
   border: 2px solid #f3f3f3;
+  border-radius: 25px 0 0;
   display: block;
   list-style-type: none;
   margin: 0 0 30px;
   overflow: hidden;
-  padding: 0 20px 20px;
   position: relative;
   width: 85%;
 }
 
+#reviews-list li p:first-of-type {
+  background-color: #252831;
+  border-radius: 25px 0 0;
+  color: #fff;
+  padding: 15px;
+}
+
 #reviews-list li p {
   margin: 0 0 10px;
+  padding: 0 20px;
 }
 
 #restaurant-hours td {
@@ -354,6 +363,6 @@ nav h1 a {
     width: 100%;
   }
   .inside #footer {
-    width: auto;
+    width: 100%;
   }
 }
