@@ -324,6 +324,9 @@ nav h1 a {
   background-color: #252831;
   border-radius: 25px 0 0;
   color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
   padding: 15px;
 }
 
@@ -331,6 +334,18 @@ nav h1 a {
   margin: 0 0 10px;
   padding: 0 20px;
 }
+
+#reviews-list p:nth-child(3) {
+  background-color: #ffa500;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 3px 5px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 90px;
+} 
 
 #restaurant-hours td {
   color: #666;
