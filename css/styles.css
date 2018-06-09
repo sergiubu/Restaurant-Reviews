@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-body, td, th, p {
+body, td, th {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10pt;
   color: #333;
@@ -320,31 +320,44 @@ nav h1 a {
   width: 85%;
 }
 
-#reviews-list li p:first-of-type {
+#reviews-list li div {
+  align-items: center;
   background-color: #252831;
-  border-radius: 25px 0 0;
   color: #fff;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 0 15px 0 0;
+}
+
+#reviews-list li div span {
+  color: #ccc;
+  font-size: 16px;
+}
+
+#reviews-list li p:first-of-type {
+  border-radius: 25px 0 0;
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 1px;
-  padding: 15px;
 }
 
 #reviews-list li p {
-  margin: 0 0 10px;
   padding: 0 20px;
 }
 
-#reviews-list p:nth-child(3) {
+#reviews-list li p:nth-child(2) {
   background-color: #ffa500;
   border-radius: 5px;
   color: #fff;
+  font-size: 15px;
   font-weight: bold;
   letter-spacing: 1px;
+  margin: 15px 20px;
   padding: 3px 5px;
   text-align: center;
   text-transform: uppercase;
-  width: 90px;
+  width: 85px;
 } 
 
 #restaurant-hours td {
