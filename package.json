@@ -1,0 +1,33 @@
+{
+  "name": "restaurant-reviews",
+  "version": "1.0.0",
+  "description": "Restaurant reviews app",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "imagemin-jpegtran": "^5.0.2"
+  },
+  "devDependencies": {
+    "gulp-gm": "0.0.9",
+    "gulp-image-resize": "^0.13.0",
+    "gulp-imagemin": "^4.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiubu/Restaurant-Reviews.git"
+  },
+  "author": "Sergiu B",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sergiubu/Restaurant-Reviews/issues"
+  },
+  "homepage": "https://github.com/sergiubu/Restaurant-Reviews#readme",
+  "keywords": [
+    "Restaurant",
+    "reviews",
+    "app"
+  ]
+}
